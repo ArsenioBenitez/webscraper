@@ -6,7 +6,7 @@ var body = document.getElementsByTagName('body')[0];
 
 body.after(script);
 
-d3.selectAll("p a").nodes().forEach(function(e){
+d3.selectAll("a").nodes().forEach(function(e){
 
   console.log(e.innerText);
 
